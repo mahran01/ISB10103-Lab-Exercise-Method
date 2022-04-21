@@ -4,10 +4,8 @@
 
 1.  [Question](#question)
 2.  [Answer](#answer)
-    1.  [1st Run](#1st-run)
-    2.  [2nd Run](#2nd-run)
-
----
+    1.  [Code Links](#code-links)
+    2.  [Result](#result)
 
 ### Question
 
@@ -28,6 +26,8 @@ Test your program with different lesson and skill.
 
 ### Answer
 
+#### Code Links
+
 The code can be found on following links:
 
 - [GitHub](/src/Main.java)
@@ -35,12 +35,14 @@ The code can be found on following links:
 - [JDoodle](https://jdoodle.com/a/4J7I)
 - [JDoodle Embed](https://www.jdoodle.com/embed/v0/4J7I)
 
+#### Result
+
 The result of the code is as follows:
 
-#### 1st Run
+1st Run:
 
-![Result 1](/assets/images/result_01.png))
+![Result 1](/assets/images/result_01.png)
 
-#### 2nd Run
+2nd Run:
 
-![Result 2](/assets/images/result_02.png))
+![Result 2](/assets/images/result_02.png)
