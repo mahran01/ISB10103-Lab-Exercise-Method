@@ -16,7 +16,7 @@ Create an Aquatic class. This class offers three lessons; Swim, Snorkel and Dive
 \
 Fees for each lesson will be calculated based on skill and levels as follows:
 
-![](/assets/images/01.png)
+![Question 1](/assets/images/question_01.png)
 
 Use `char` type for `lessonID` and `skillID`.
 Display total fees for each lesson in `CalculateFees(char lessonID, char skillID)`.
@@ -35,80 +35,12 @@ The code can be found on following links:
 - [JDoodle](https://jdoodle.com/a/4J7I)
 - [JDoodle Embed](https://www.jdoodle.com/embed/v0/4J7I)
 
-The output of the code is as follows:
+The result of the code is as follows:
 
 #### 1st Run
 
-Output:
-
-```
-Choose a lesson:
-1. Swim
-2. Snorkel
-3. Dive
-```
-
-Input:
-
-```
-2
-```
-
-Output:
-
-```
-Choose a skill:
-1. Basic
-2. Intermediate
-3. Advanced
-```
-
-Input:
-
-```
-2
-```
-
-Output:
-
-```
-The fee is RM 25.00
-```
+![Result 1](/assets/images/result_01.png))
 
 #### 2nd Run
 
-Output:
-
-```
-Choose a lesson:
-1. Swim
-2. Snorkel
-3. Dive
-```
-
-Input:
-
-```
-1
-```
-
-Output:
-
-```
-Choose a skill:
-1. Basic
-2. Intermediate
-3. Advanced
-```
-
-Input:
-
-```
-3
-```
-
-Output:
-
-```
-The fee is RM 35.00
-```
+![Result 2](/assets/images/result_02.png))
