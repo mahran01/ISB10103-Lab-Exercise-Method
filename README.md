@@ -28,14 +28,14 @@ Test your program with different lesson and skill.
 
 ### Answer
 
-The code can be found as follows:
+The code can be found on following links:
 
 - [GitHub](/src/Main.java)
 - [GitHub Raw](https://raw.githubusercontent.com/mahran01/ISB10103-Lab-Exercise-Method/main/src/Main.java)
 - [JDoodle](https://jdoodle.com/a/4J7I)
 - [JDoodle Embed](https://www.jdoodle.com/embed/v0/4J7I)
 
-The expected output should be as follows:
+The output of the code is as follows:
 
 #### 1st Run
 
