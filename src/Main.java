@@ -4,7 +4,8 @@ public class Main {
     
     public static void main(String args[]) {
         
-        char lessonID, skillID;
+        int lessonID;
+        char skillID;
         
         lessonID = GetLesson();
         skillID = GetSkill();
@@ -12,57 +13,57 @@ public class Main {
         CalculateFees(lessonID, skillID);
     }
     
-    static char GetLesson() {
+    static int GetLesson() {
         
         int choice;
         Scanner s = new Scanner(System.in);
         
-        System.out.println("Choose a lesson:");
         System.out.println("1. Swim");
         System.out.println("2. Snorkel");
         System.out.println("3. Dive");
+        System.out.println("Choose a lesson:");
         
         choice = s.nextInt();
         
+        System.out.println();
+        
         switch(choice) {
-            case 1: return '1';
-            case 2: return '2';
-            case 3: return '3';
+            case 1: case 2: case 3: return choice;
             default: return GetLesson();
         }
     }
     
     static char GetSkill() {
         
-        int choice;
+        char choice;
         Scanner s = new Scanner(System.in);
         
+        System.out.println("B. Basic");
+        System.out.println("I. Intermediate");
+        System.out.println("A. Advanced");
         System.out.println("Choose a skill:");
-        System.out.println("1. Basic");
-        System.out.println("2. Intermediate");
-        System.out.println("3. Advanced");
         
-        choice = s.nextInt();
+        choice = s.next().charAt(0);
+        
+        System.out.println();
         
         switch(choice) {
-            case 1: return 'B';
-            case 2: return 'I';
-            case 3: return 'A';
+            case 'B': case 'I': case 'A': return choice;
             default: return GetSkill();
         }
     }
     
-    static void CalculateFees(char lessonID, char skillID) {
+    static void CalculateFees(int lessonID, char skillID) {
         
         int price = 0;
         
         switch (lessonID) {
-            case '1': price += 50;
-                      break;
-            case '2': price += 25;
-                      break;
-            case '3': price += 100;
-                      break;
+            case 1: price += 50;
+                    break;
+            case 2: price += 25;
+                    break;
+            case 3: price += 100;
+                    break;
         }
         
         switch (skillID) {
